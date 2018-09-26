@@ -21,9 +21,25 @@ img {
 }
 
 body {
+    position: relative;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
+    font-family: var(--primary-font);
+    background-color: var(--tertiary-color);
+    background-image: url(../img/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 80% center;
+
+    @media (--min-tablet) {
+        background-position: 70% center;
+
+    }
+
+    @media (--min-desktop) {
+        background-position: center center;
+    }
 }
 
 .main-header,

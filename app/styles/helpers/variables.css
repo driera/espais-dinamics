@@ -9,7 +9,9 @@
 
 :root {
     /* Colour palette */
-    --primary-color: #0077CC;
+    --primary-color: #346a86;
+    --secondary-color: #81708d;
+    --tertiary-color: #fbc200;
     --dark-color: #000000;
     --light-color: #FFFFFF;
 
@@ -17,5 +19,5 @@
     --box-shadow: 0 10px 20px color(var(--dark-color) alpha(-75%));
 
     /* Fonts */
-    --primary-font: Arial, Verdana, sans-serif;
+    --primary-font: 'Montserrat', Arial, Verdana, sans-serif;
 }

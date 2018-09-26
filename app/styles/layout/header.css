@@ -1,3 +1,75 @@
 .main-header {
     display: flex;
+    width: 100vw;
+    padding: 30px 0 80px;
+
+    @media (--min-desktop) {
+        padding: 80px 0;
+    }
+
+    @media (--min-desktop-xxlarge) {
+        padding: 120px 0;
+    }
+}
+
+.main-header--logo {
+    margin-bottom: 30px;
+
+    @media (--min-desktop) {
+        margin-bottom: 80px;
+    }
+
+    @media (--min-desktop-xxlarge) {
+        margin-bottom: 120px;
+    }
+
+    svg {
+        display: block;
+        width: .815em;
+        height: 1em;
+        font-size: 150px;
+
+        @media (--min-desktop) {
+            font-size: 200px;
+        }
+    }
+}
+
+.main-header--title {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.2;
+
+    @media (--min-desktop) {
+        font-size: 32px;
+    }
+}
+
+.main-header--text {
+    max-width: 80%;
+    font-size: 16px;
+    line-height: 1.5;
+
+    @media (--min-desktop) {
+        font-size: 20px;
+    }
+
+    b {
+        font-weight: bold;
+    }
+
+    a {
+        display: inline-block;
+        padding: 0 2px;
+        color: var(--dark-color);
+        border-bottom: 2px solid var(--dark-color);
+        text-decoration: none;
+        transition: .3s ease-in;
+
+        &:hover {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--primary-color);
+        }
+    }
 }
