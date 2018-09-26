@@ -26,15 +26,14 @@ body {
     flex-direction: column;
     min-height: 100vh;
     font-family: var(--primary-font);
-    background-color: var(--tertiary-color);
-    background-image: url(../img/bg2.jpg);
+    background-image: url(../img/bg-mobile.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 80% center;
 
     @media (--min-tablet) {
+        background-image: url(../img/bg.jpg);
         background-position: 70% center;
-
     }
 
     @media (--min-desktop) {

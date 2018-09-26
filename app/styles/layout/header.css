@@ -6,10 +6,6 @@
     @media (--min-desktop) {
         padding: 80px 0;
     }
-
-    @media (--min-desktop-xxlarge) {
-        padding: 120px 0;
-    }
 }
 
 .main-header--logo {
@@ -19,18 +15,14 @@
         margin-bottom: 80px;
     }
 
-    @media (--min-desktop-xxlarge) {
-        margin-bottom: 120px;
-    }
-
     svg {
         display: block;
         width: .815em;
         height: 1em;
-        font-size: 150px;
+        font-size: 210px;
 
         @media (--min-desktop) {
-            font-size: 200px;
+            font-size: 250px;
         }
     }
 }
